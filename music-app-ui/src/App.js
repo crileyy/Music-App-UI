@@ -25,6 +25,7 @@ class App extends React.Component {
           height={100}/>
         <SongView songName="I'll Try Anything Once" songArtist="The Strokes"/>
         <SongView songName="Bambi" songArtist="Hippo Campus"/>
+        <SongView songName="Gold" songArtist="Brockhampton"/>
       </div>
 
     );
