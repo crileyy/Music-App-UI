@@ -6,11 +6,13 @@ export default class SongView extends React.Component {
 
 	render() {
 		return (
-			<ul className="SongView">
+			<div className="SongView">
 				<span className="song-info">{this.props.songName + " " + this.props.songArtist}</span>
-				<button className="play-song">Play</button>
-				<button className="pause-song">Pause</button>
-			</ul>
+				<div className="buttons">
+					<button className="play-song">Play</button>
+					<button className="pause-song">Pause</button>
+				</div>
+			</div>
 			);
 	}
 }
