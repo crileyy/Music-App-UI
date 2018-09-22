@@ -5,6 +5,7 @@ import './button.css';
 import Button from "./button";
 import YouTube from "./youtube";
 import YouTubeTest from "./youtube-test";
+import SongView from "./SongView"
 
 class App extends React.Component {
   render() {
@@ -17,11 +18,13 @@ class App extends React.Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1 className="App-music-title">MusicEasy</h1>
         <YouTube
-          YTid={'BoEKWtgJQAU'}
+          YTid={'0RDq5PKcN5g'}
           width={100}
           height={100}/>
-      <Button/>
+        <SongView songName="I'll Try Anything Once" songArtist="The Strokes"/>
+        <SongView songName="Bambi" songArtist="Hippo Campus"/>
       </div>
 
     );
