@@ -41,16 +41,20 @@ class YouTube extends React.Component {
     }
 
     onPlayerReady(event) {
-        event.target.playVideo();
+        
     }
 
     render() {
         return (
-            <section className='youtubeComponent-wrapper'>
+            <div className='youtubeComponent-wrapper'>
                 <div ref={(r) => {
                     this.youtubePlayerAnchor = r
                 }}></div>
-            </section>
+                <div className="buttons">
+                    <button className="play-song">Play</button>
+                    <button className="pause-song">Pause</button>
+                </div>
+            </div>
         )
     }
 }

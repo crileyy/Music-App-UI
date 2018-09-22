@@ -23,9 +23,11 @@ class App extends React.Component {
           YTid={'0RDq5PKcN5g'}
           width={100}
           height={100}/>
-        <SongView songName="I'll Try Anything Once" songArtist="The Strokes"/>
-        <SongView songName="Bambi" songArtist="Hippo Campus"/>
-        <SongView songName="Gold" songArtist="Brockhampton"/>
+        <div className="Songs">
+          <SongView songName="I'll Try Anything Once" songArtist="The Strokes"/>
+          <SongView songName="Bambi" songArtist="Hippo Campus"/>
+          <SongView songName="Gold" songArtist="Brockhampton"/>
+        </div>
       </div>
 
     );

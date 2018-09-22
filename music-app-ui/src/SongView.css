@@ -21,8 +21,12 @@
 }
 
 .buttons {
-    position: absolute;
-    right: 0px;
+    /*display: flex;
+    align-items: center;
+    border: none;
+    flex: 0 0 auto;
+    line-height: 20px;
+    justify-content: flex-end;*/
 }
 
 .SongView button:not(:last-child) {
